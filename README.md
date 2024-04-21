@@ -1,8 +1,14 @@
-# awsd - AWS Profile Switcher in Go
+# ooda (who-the) - AWS Profile Switcher in Go
 
-<img src="assets/awsd.png" width="200">
+   ____  ____  ____  ___ 
+  / __ \/ __ \/ __ \/   |
+ / / / / / / / / / / /| |
+/ /_/ / /_/ / /_/ / ___ |
+\____/\____/_____/_/  |_|
+                         
 
-awsd is a command-line utility that allows you to easily switch between AWS Profiles
+ooda (who-the) is a fork of https://github.com/radiusmethod/awsd I created to personally test experiental features.
+awsd by radiusmethod is a command-line utility that allows you to easily switch between AWS Profiles.
 
 <img src="assets/demo.gif" width="500">
 
