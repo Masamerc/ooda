@@ -1,12 +1,13 @@
 # ooda (who-the) - AWS Profile Switcher in Go
 
+```ascii
    ____  ____  ____  ___ 
-  / __ \/ __ \/ __ \/   |
- / / / / / / / / / / /| |
-/ /_/ / /_/ / /_/ / ___ |
+  / __ \/ __ \/ __ \/   |        name: ooda
+ / / / / / / / / / / /| |        desc: AWS Profile Switcher on the command-line
+/ /_/ / /_/ / /_/ / ___ |        version: 0.1.0
 \____/\____/_____/_/  |_|
-                         
 
+```                         
 ooda (who-the) is a fork of https://github.com/radiusmethod/awsd I created to personally test experiental features.
 awsd by radiusmethod is a command-line utility that allows you to easily switch between AWS Profiles.
 
