@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/radiusmethod/awsd/src/cmd"
+	"github.com/masamerc/ooda/src/cmd"
 )
 
 func main() {

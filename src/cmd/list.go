@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/radiusmethod/awsd/src/utils"
 	"github.com/spf13/cobra"
+
+	"github.com/masamerc/ooda/src/utils"
 )
 
 var listCmd = &cobra.Command{

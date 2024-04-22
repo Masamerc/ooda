@@ -2,17 +2,19 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/manifoldco/promptui"
-	"github.com/radiusmethod/awsd/src/utils"
-	"github.com/spf13/cobra"
 	"log"
 	"os"
+
+	"github.com/manifoldco/promptui"
+	"github.com/spf13/cobra"
+
+	"github.com/masamerc/ooda/src/utils"
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "awsd",
-	Short: "awsd - switch between AWS profiles.",
-	Long:  "Allows for switching AWS profiles files.",
+	Use:   "ooda",
+	Short: "ooda - switch between AWS profiles.",
+	Long:  "ooda - switch between AWS profiles.",
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := runProfileSwitcher(); err != nil {
 			log.Fatal(err)
@@ -89,7 +91,6 @@ func getProfileFromPrompt(profiles []string) (string, error) {
 	}
 
 	_, result, err := prompt.Run()
-
 	if err != nil {
 		utils.CheckError(err)
 		return "", nil

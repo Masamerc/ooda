@@ -1,4 +1,4 @@
-module github.com/radiusmethod/awsd
+module github.com/masamerc/ooda
 
 go 1.19
 

@@ -1,9 +1,10 @@
 package utils
 
 import (
-	"github.com/manifoldco/promptui/list"
 	"os"
 	"strings"
+
+	"github.com/manifoldco/promptui/list"
 )
 
 const (
