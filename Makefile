@@ -1,4 +1,5 @@
 BINDIR = /usr/local/bin
+VERSION = 0.1.0
 
 help:          ## Show this help
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
@@ -23,3 +24,6 @@ uninstall:     ## Uninstall Target
 	rm -f ${BINDIR}/_awsd
 	rm -f ${BINDIR}/_awsd_autocomplete
 	rm -f ${BINDIR}/_awsd_prompt
+
+dev/build:
+	go build -o ./bin/ooda-${VERSION}
