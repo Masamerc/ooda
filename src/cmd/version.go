@@ -10,11 +10,11 @@ var version string = "v0.0.9"
 
 var versionCmd = &cobra.Command{
 	Use:     "version",
-	Short:   "awsd version command",
+	Short:   "ooda version command",
 	Aliases: []string{"v"},
-	Long:    "Returns the current version of awsd",
+	Long:    "Returns the current version of ooda",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("awsd version:", version)
+		fmt.Println("ooda version:", version)
 	},
 }
 
